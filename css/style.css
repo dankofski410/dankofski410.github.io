@@ -1,0 +1,215 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    line-height: 30px;
+    text-align: center;
+}
+
+strong {
+    font-weight: 600;
+}
+
+a,
+a:hover,
+a:focus {
+    color: #9b59b6;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+h1,
+h2 {
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: black;
+    line-height: 50px;
+}
+
+.divider-1 span {
+    display: inline-block;
+    width: 200px;
+    border-bottom: 1px dashed #242424;
+}
+
+.navbar {
+    /* background-image: url(../images/Background_Texture.png); */
+    text-align: center;
+    background: #242424;
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    -ms-transition: all .6s;
+    transition: all .6s;
+    backface-visibility: hidden;
+}
+
+.navbar.navbar-no-bg {
+    /* background-image: url(../images/Background_Texture.png); */
+    background: #242424;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-dark .navbar-nav {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+/* .nav-item {
+    margin: 0;
+    border-left: 2px solid #AB0A00;
+    border-right: 2px solid #AB0A00;
+} */
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #AB0A00;
+    background-color: #242424;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+    /* color: #AB0A00; */
+    outline: 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.myLogo {
+    width: 200px;
+}
+
+.top-content {
+    background: url(../images/Customware_Logo3.png) no-repeat center center fixed;
+    background-color: #242424;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    padding: 400px 0;
+}
+
+@media (max-width: 978px) {
+    .top-content {
+        background: url(../images/Customware_Logo3.png) no-repeat center center;
+        background-color: #242424;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+        padding: 100px 0;
+        margin-top: 70px !important;
+    }
+}
+
+.services-box {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    text-align: left;
+}
+
+.services-box .services-box-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    font-size: 40px;
+    color: #242424;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 28px;
+    background: #AB0A00;
+}
+
+.services-box h3 {
+    margin-top: 0;
+    padding: 0 0 10px 0;
+}
+
+.about-us-box {
+    margin-top: 100px;
+}
+
+.about-us-box-text {
+    padding-right: 30px;
+    text-align: left;
+}
+
+.about-us-box-text h3 {
+    margin-top: 0;
+}
+
+.about-us-box-text .medium-paragraph {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-us-box-text a {
+    border-bottom: 1px dashed #9b59b6;
+}
+
+.about-us-box-text a:hover,
+.about-us-box-text a:focus {
+    border: 0;
+}
+
+.about-us-box-img img {
+    width: 300px;
+}
+
+footer {
+    padding: 10px 0 0 0;
+    background: #242424;
+    color: #aaa;
+    text-align: left;
+}
+
+.footer-left a {
+    color: #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.footer-left a:hover,
+.footer-left a:focus {
+    color: #ddd;
+    border: 0;
+}
+
+.footer-bottom {
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.footer-bottom a {
+    font-size: 32px;
+    color: #666;
+    line-height: 40px;
+}
+
+.footer-bottom a:hover,
+.footer-bottom a:focus {
+    color: #888;
+}
+
+.client-logo {
+    width: 100px;
+}
