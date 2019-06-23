@@ -10,6 +10,10 @@ function scroll_to(clicked_link, nav_height) {
     }
 }
 
+jQuery(document).ready(function() {
+    var screenHeight = $(window).height();
+    $(".top-content").css({ "padding": "400px 0" });
+});
 
 jQuery(document).ready(function() {
 
@@ -24,30 +28,7 @@ jQuery(document).ready(function() {
     $('.top-content .text').waypoint(function() {
         $('nav').toggleClass('navbar-no-bg');
     });
-
-    /*
-        Background slideshow
-    */
-    // $('.top-content').backstretch("images/Customware_Logo3.png");
-    $('.call-to-action-container').backstretch("assets/img/backgrounds/1.jpg");
-    $('.testimonials-container').backstretch("assets/img/backgrounds/1.jpg");
-
-    $('#top-navbar-1').on('shown.bs.collapse', function() {
-        $('.top-content').backstretch("resize");
-    });
-    $('#top-navbar-1').on('hidden.bs.collapse', function() {
-        $('.top-content').backstretch("resize");
-    });
-
-    $('a[data-toggle="tab"]').on('shown.bs.tab', function() {
-        $('.testimonials-container').backstretch("resize");
-    });
+    
     new WOW().init();
-
-});
-
-
-jQuery(window).load(function() {
-    $(".testimonial-image img").attr("style", "width: auto !important; height: auto !important;");
 
 });
