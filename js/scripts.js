@@ -12,7 +12,7 @@ function scroll_to(clicked_link, nav_height) {
 
 jQuery(document).ready(function() {
     var screenHeight = $(window).height();
-    $(".top-content").css({ "padding": screenHeight + "px" });
+    $(".top-content").css({ "padding-top": screenHeight + "px" });
 });
 
 jQuery(document).ready(function() {
